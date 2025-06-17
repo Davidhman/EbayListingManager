@@ -1,0 +1,14 @@
+﻿<Window x:Class="EbayWpfUploader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="eBay Sandbox Uploader" Height="400" Width="600">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Enter SKU | Title | ImagePath (one per line):" FontWeight="Bold" />
+            <TextBox Name="InputBox" Height="100" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"
+                     Text="SKU001|Widget A|C:\Images\widgetA.jpg&#10;SKU002|Widget B|C:\Images\widgetB.jpg"/>
+            <Button Name="UploadButton" Content="Create Listings" Margin="0,10,0,0" Click="UploadButton_Click"/>
+            <TextBlock Name="StatusText" TextWrapping="Wrap" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

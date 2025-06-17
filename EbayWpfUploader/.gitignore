@@ -1,0 +1,36 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore Visual Studio settings
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Ignore image metadata (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore JetBrains Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+# Ignore Rider solution files
+*.sln.iml
+
+# Ignore compiled DLLs/exes if needed
+*.dll
+*.exe
